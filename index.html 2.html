@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lemma Asefa | Personal Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        body {
+            /* Suuraan my.jpg duubbee akka ta'uuf */
+            background: linear-gradient(rgba(10, 15, 30, 0.7), rgba(10, 15, 30, 0.8)), 
+                        url('my.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        header {
+            width: 100%;
+            max-width: 1000px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 50px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+            margin-top: 15px;
+        }
+
+        .logo {
+            font-size: 1.1rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: #fbbf24;
+        }
+
+        .main-container {
+            width: 100%;
+            max-width: 800px;
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 24px;
+            padding: 40px 30px;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+            margin: 20px 0;
+        }
+
+        .main-container h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #ffffff;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+        }
+
+        .main-container h2 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #fbbf24;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .main-container p {
+            font-size: 1rem;
+            color: #e2e8f0;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+            line-height: 1.6;
+        }
+
+        /* Social Media Icons Grid */
+        .social-grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 55px;
+            height: 55px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            color: #ffffff;
+            font-size: 1.4rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .social-btn:hover {
+            transform: translateY(-5px) scale(1.1);
+            background: rgba(251, 191, 36, 0.8);
+            color: #0f172a;
+            border-color: #fbbf24;
+            box-shadow: 0 8px 25px rgba(251, 191, 36, 0.5);
+        }
+
+        footer {
+            font-size: 0.85rem;
+            color: #cbd5e1;
+            margin-bottom: 10px;
+            text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+        }
+
+        @media (max-width: 768px) {
+            .main-container h1 { font-size: 2rem; }
+            .main-container { padding: 25px 15px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">PORTFOLIO</div>
+        <div style="font-size: 0.9rem; color: #fbbf24; font-weight: 600;">Lemma Asefa</div>
+    </header>
+
+    <main class="main-container">
+        <h1>Lemma Asefa</h1>
+        <h2>Digital Creator & Professional Portfolio</h2>
+        <p>Welcome to my official personal space. Connect with me across my social media platforms below to explore my works, projects, and professional journey.</p>
+        
+        <!-- Iconoota kana yeroo tuqtu gara social media keetti si geessa -->
+        <div class="social-grid">
+            <!-- Facebook -->
+            <a href="https://facebook.com/USERNAMEEDHEE" target="_blank" class="social-btn" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <!-- Instagram -->
+            <a href="https://instagram.com/USERNAMEEDHEE" target="_blank" class="social-btn" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <!-- Telegram -->
+            <a href="https://t.me/USERNAMEEDHEE" target="_blank" class="social-btn" title="Telegram"><i class="fa-brands fa-telegram"></i></a>
+            <!-- LinkedIn -->
+            <a href="https://linkedin.com/in/USERNAMEEDHEE" target="_blank" class="social-btn" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <!-- WhatsApp -->
+            <a href="https://wa.me/LAMOON_KEESSAN" target="_blank" class="social-btn" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <!-- YouTube -->
+            <a href="https://youtube.com/@USERNAMEEDHEE" target="_blank" class="social-btn" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2026 Lemma Asefa. All rights reserved.
+    </footer>
+
+</body>
+</html>
